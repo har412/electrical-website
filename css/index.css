@@ -1,0 +1,99 @@
+/* ----------------- Navbar-top css ---------------- */
+
+.make-it-in-a-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px !important;
+}
+
+.make-it-in-a-row-left {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.make-it-in-a-row a {
+    text-decoration: none;
+    padding: 2px 10px;
+    color: black;
+    font-size: 17px;
+    /* font-weight: bold; */
+
+}
+
+.make-it-in-a-row li a:hover {
+    color: rgb(207, 110, 20) !important;
+    text-decoration: underline;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.make-it-in-a-row li {
+    list-style-type: none;
+}
+
+
+.make-it-in-a-row i {
+    font-size: 15px;
+}
+
+.make-it-in-a-row-left h6 {
+    margin: 0px !important;
+    margin-top: 3px !important;
+}
+
+/* ----------------------- Navbar-2nd-top--------------------------- */
+
+.nav-2nd-top {
+    background: black;
+    color: white;
+    height: 151px;
+}
+
+.custom-btn {
+    border-radius: 50px !important;
+    background: #ec6b15 !important;
+    color: white !important;
+}
+
+.custom-btn:hover {
+    background: #d65c0b !important;
+}
+
+/* -------------------------- Actual Navbar --------------------- */
+.outline-box {
+    border: 2px solid gray;
+}
+
+.anchor li {
+    list-style-type: none;
+    margin: 5px 5px;
+}
+
+.anchor a {
+    text-decoration: none;
+    padding: 5px 8px;
+
+}
+
+.make-it-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.anchor ul {
+    margin: 10px !important;
+
+}
+
+.actual-nav {
+    background: white;
+    position: relative;
+    top: -50.5px;
+    padding: 0px !important;
+
+}
